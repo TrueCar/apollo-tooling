@@ -33,7 +33,7 @@
     "apollo-language-server": "file:../apollo-language-server",
     "vscode-languageclient": "^5.2.1"
   },
-  "publisher": "apollographql",
+  "publisher": "truecar",
   "categories": [
     "Programming Languages",
     "Linters"
