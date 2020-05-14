@@ -87,7 +87,10 @@ function extractGraphQLDocumentsFromJSTemplateLiterals(
 
   const documents: GraphQLDocument[] = [];
 
-  const regExp = new RegExp(`${tagName}\\s*\`([\\s\\S]+?)\``, "gm");
+  const regExp = new RegExp(
+    `${tagName}\\s*(?:<[\"\\w,\\s]*>)?\`([\\s\\S]+?)\``,
+    "gm"
+  );
 
   let result;
   while ((result = regExp.exec(text)) !== null) {
