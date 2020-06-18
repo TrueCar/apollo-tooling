@@ -1,17 +1,16 @@
 {
-  "name": "vscode-apollo",
-  "displayName": "Apollo GraphQL",
-  "description": "Rich editor support for GraphQL client and server development that seamlessly integrates with the Apollo platform",
-  "version": "1.16.3",
-  "referenceID": "87197759-7617-40d0-b32e-46d378e907c7",
-  "author": "Apollo GraphQL <opensource@apollographql.com>",
+  "name": "vscode-sunny-graphql",
+  "displayName": "Sunny GraphQL",
+  "description": "A fork of the official Apollo GraphQL extension with performance improvements and support for type parameters in gql tags",
+  "version": "1.0.1",
+  "author": "Sunny Mittal <sunnymittal2003@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollographql/apollo-tooling"
+    "url": "https://github.com/TrueCar/apollo-tooling"
   },
-  "homepage": "https://github.com/apollographql/apollo-tooling",
-  "bugs": "https://github.com/apollographql/apollo-tooling/issues",
+  "homepage": "https://github.com/TrueCar/apollo-tooling",
+  "bugs": "https://github.com/TrueCar/apollo-tooling/issues",
   "main": "./lib/extension",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -38,7 +37,7 @@
     "Programming Languages",
     "Linters"
   ],
-  "icon": "images/icon-apollo-blue-400x400.png",
+  "icon": "images/not-found.png",
   "activationEvents": [
     "workspaceContains:**/apollo.config.[jt]s"
   ],
