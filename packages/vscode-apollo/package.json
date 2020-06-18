@@ -2,7 +2,7 @@
   "name": "vscode-artemis",
   "displayName": "Artemis GraphQL",
   "description": "A fork of the official Apollo GraphQL extension with performance improvements and support for type parameters in gql tags",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Sunny Mittal <sunnymittal2003@gmail.com>",
   "license": "MIT",
   "repository": {
