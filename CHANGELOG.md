@@ -19,11 +19,34 @@
 - `apollo-graphql`
   - <First `apollo-graphql` related entry goes here>
 - `apollo-language-server`
-  - Fix VS Code extension performance issues for larger projects [#1938](https://github.com/apollographql/apollo-tooling/pull/1938)
+  - Fix definition navigation for vscode using localSchemaFile [#1996](https://github.com/apollographql/apollo-tooling/pull/1996)
 - `apollo-tools`
   - <First `apollo-tools` related entry goes here>
 - `vscode-apollo`
-  - <First `vscode-apollo` related entry goes here>
+  - Fix definition navigation for vscode using localSchemaFile [#1996](https://github.com/apollographql/apollo-tooling/pull/1996)
+  - Fix 'Apollo: Show Status' command. [#2004](https://github.com/apollographql/apollo-tooling/pull/2004)
+
+## `apollo@2.28.3`
+
+- `apollo@2.28.3`
+  - Don't send a user-specified frontend URL to Apollo's servers; fetch one when needed. Drop `--frontend` flag. [#1990](https://github.com/apollographql/apollo-tooling/pull/1990)
+- `apollo-language-server@1.22.3`
+  - Don't send a user-specified frontend URL to Apollo's servers; fetch one when needed. [#1990](https://github.com/apollographql/apollo-tooling/pull/1990)
+
+## `apollo@2.28.2`
+
+- `apollo@2.28.2`
+  - Prevent cli from sending some git credentials [#1988](https://github.com/apollographql/apollo-tooling/pull/1988)
+
+## `apollo@2.28.1`
+
+- `apollo@2.28.1`
+  - Fix silent codegen errors on syntax errors [#1899](https://github.com/apollographql/apollo-tooling/pull/1899)
+- `apollo-language-server@1.22.1`
+  - Remove error from the case with old and new api keys present [#1893](https://github.com/apollographql/apollo-tooling/pull/1893)
+  - Add Elixir support for vscode [#1971](https://github.com/apollographql/apollo-tooling/pull/1971)
+- `vscode-apollo@1.61.1`
+  - Add Elixir support for vscode [#1971](https://github.com/apollographql/apollo-tooling/pull/1971)
 
 ## `apollo@2.27.3`
 
