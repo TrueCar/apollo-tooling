@@ -1,6 +1,6 @@
 {
-  "name": "vscode-sunny-graphql",
-  "displayName": "Sunny GraphQL",
+  "name": "vscode-zeus",
+  "displayName": "Zeus GraphQL",
   "description": "A fork of the official Apollo GraphQL extension with performance improvements and support for type parameters in gql tags",
   "version": "1.0.1",
   "author": "Sunny Mittal <sunnymittal2003@gmail.com>",
